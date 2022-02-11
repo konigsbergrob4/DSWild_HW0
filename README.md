@@ -9,13 +9,13 @@ The zip file for this submission has code / results for two tasks:
 2) Conditional bigram distribution 
 
 ## Contents
-The zip file accompanying this submission contains the following:
-This README.md file 
-[Step 4] Python code used for the word count of wiki.txt: 
-[Step 4] Output file for the word count program 
-[Step 5] Python code for the conditional bigram distribution of wiki.txt 
-[Step 5] Output file for all bigrams in wiki.txt 
-[Step 5] Output file for the conditional bigram distribution 
+The zip file accompanying this submission contains the following: <br />
+> This README.md file <br />
+> [Step 4] Python code used for the word count of wiki.txt: <br />
+> [Step 4] Output file for the word count program <br />
+> [Step 5] Python code for the conditional bigram distribution of wiki.txt <br />
+> [Step 5] Output file for all bigrams in wiki.txt <br />
+> [Step 5] Output file for the conditional bigram distribution <br />
 
 ## How to run code and where to find the output
 Step 4:
