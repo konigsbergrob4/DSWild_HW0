@@ -12,11 +12,12 @@ The zip file for this submission has code / results for two tasks:
 The zip file accompanying this submission contains the following: <br />
 > This README.md file <br />
 > Wiki.txt file used for this assignment <br />
-> [Step 4] Python code used for the word count of wiki.txt: <br />
-> [Step 4] Output file for the word count program <br />
-> [Step 5] Python code for the conditional bigram distribution of wiki.txt <br />
-> [Step 5] Output file for all bigrams in wiki.txt <br />
-> [Step 5] Output file for the conditional bigram distribution <br />
+> [Step 4] Python code used for the word count of wiki.txt (wordcount.py) <br />
+> [Step 4] Output file for the word count program (wordcount.txt) <br />
+> [Step 5] Python code for the counting of all bigrams in wiki.txt (bigram_count.py) <br />
+> [Step 5] Output file for all bigrams and their count in wiki.txt (bigram_count.txt) <br />
+> [Step 5] Python code for the conditional bigram distribution of wiki.txt (bigram.py) <br />
+> [Step 5] Output file for the conditional bigram distribution (bigram.txt) <br />
 
 ## How to run code and where to find the output
 Step 4:
@@ -24,12 +25,22 @@ Step 4:
 > Navigate to the folder that contains this file, and ensure that the machine has Spark installed (as indicated in CS5304 lecture) <br />
 > Run the following in the command line: spark-submit ./wordcount.py ./wiki.txt ./output<br />
 > Go to the "output" folder, and load the file "part-00000" to inspect results<br />
+> See presaved output in wordcount.txt
 
 Step 5: 
+For calculating the count of all bigrams: 
+> Download the file bigram_count.py along with wiki.txt <br />
+> Navigate to the folder that contains this file, and ensure that the machine has Spark installed (as indicated in CS5304 lecture) <br />
+> Run the following in the command line: spark-submit ./bigram_count.py ./wiki.txt ./output <br />
+> Go to the "output" folder, and load the file "part-00000" to inspect results <br />
+> See presaved output in bigram_count.txt
+
+For calculating the conditional bigram distribution: 
 > Download the file bigram.py along with wiki.txt <br />
 > Navigate to the folder that contains this file, and ensure that the machine has Spark installed (as indicated in CS5304 lecture) <br />
 > Run the following in the command line: spark-submit ./bigram.py ./wiki.txt ./output <br />
 > Go to the "output" folder, and load the file "part-00000" to inspect results <br />
+> See presaved output in bigram.txt <br /> 
 
 Note: every time python code is ran, ensure the folder "Output" is deleted in the directory 
 
