@@ -27,7 +27,7 @@ Step 4:
 > Go to the "output" folder, and load the file "part-00000" to inspect results<br />
 > See presaved output in wordcount.txt
 
-Step 5: 
+Step 5: <br />
 For calculating the count of all bigrams: 
 > Download the file bigram_count.py along with wiki.txt <br />
 > Navigate to the folder that contains this file, and ensure that the machine has Spark installed (as indicated in CS5304 lecture) <br />
