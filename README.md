@@ -11,6 +11,7 @@ The zip file for this submission has code / results for two tasks:
 ## Contents
 The zip file accompanying this submission contains the following: <br />
 > This README.md file <br />
+> Wiki.txt file used for this assignment <br />
 > [Step 4] Python code used for the word count of wiki.txt: <br />
 > [Step 4] Output file for the word count program <br />
 > [Step 5] Python code for the conditional bigram distribution of wiki.txt <br />
